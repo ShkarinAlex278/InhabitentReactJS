@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  width: 1120px;
+}
+
+.big-div {
+  width: 1120px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .App-logo {
@@ -24,8 +31,59 @@
   color: white;
 }
 
+.text-center {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  color: white;
+  font-weight: 500;
+}
+
+.header {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+nav {
+  margin: 0px 40px;
+}
+
+.rounded {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  width: 1120px;
+  /* padding-top: -50px; */
+  margin-top: -60px;
+  z-index: -1;
+}
+
+/* .custom-btn {
+  background: #fff;
+  color: red;
+  border: 2px solid red;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+} */
+
+.btn-primary {
+  color: #fff;
+  background-color: red;
+  border-color: #007bff;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.Navbar {
+  background-color: crimson;
 }
 
 @keyframes App-logo-spin {
