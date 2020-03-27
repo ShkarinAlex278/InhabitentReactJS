@@ -15,7 +15,7 @@ import Home from "../Pages/Home";
 import About from "../Pages/About.js";
 import Contacts from "../Pages/Contacts.js";
 import Blog from "../Pages/Blog.js";
-import Ajax from "../Pages/Ajax.js";
+import Findus from "../Pages/Findus.js";
 
 class Header extends Component {
   render() {
@@ -23,11 +23,9 @@ class Header extends Component {
       <>
         <Navbar
           //   fixed="top"
-          // collapseOnSelect
-          // expand="md"
-          // bg="dark"
+          collapseOnSelect
+          expand="md"
           variant="primary"
-          // variant="dark"
         >
           <Container class="header">
             <NavbarBrand href="/">
@@ -43,11 +41,12 @@ class Header extends Component {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                  <Nav.Link href="/"> Home </Nav.Link>
-                  <Nav.Link href="/about"> About us </Nav.Link>
-                  <Nav.Link href="/contacts"> Contacts </Nav.Link>
-                  <Nav.Link href="/blog"> Blog </Nav.Link>
-                  <Nav.Link href="/ajax"> Ajax </Nav.Link>
+                  {/* <Nav.Link href="/"> Home </Nav.Link> */}
+
+                  <Nav.Link href="/contacts"> Shop </Nav.Link>
+                  <Nav.Link href="/blog"> Journal </Nav.Link>
+                  <Nav.Link href="/about"> About </Nav.Link>
+                  <Nav.Link href="/findus"> Find Us </Nav.Link>
                 </Nav>
                 <Form inline>
                   <FormControl
@@ -67,7 +66,7 @@ class Header extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/contacts" component={Contacts} />
             <Route exact path="/blog" component={Blog} />
-            <Route exact path="/ajax" component={Ajax} />
+            <Route exact path="/findus" component={Findus} />
           </Switch>
         </Router>
       </>

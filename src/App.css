@@ -63,19 +63,27 @@ nav {
   z-index: -1;
 }
 
-/* .custom-btn {
+.custom-btn {
   background: #fff;
   color: red;
   border: 2px solid red;
   border-radius: 3px;
   padding: 5px 10px;
   text-transform: uppercase;
-} */
+}
 
-.btn-primary {
-  color: #fff;
-  background-color: red;
-  border-color: #007bff;
+.back {
+  width: 1120px;
+  background-image: url("./assets/images/dark-wood.png");
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desk1 {
+  background-color: yellow;
 }
 
 .App-link {
